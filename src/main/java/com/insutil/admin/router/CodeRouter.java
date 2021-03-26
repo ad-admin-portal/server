@@ -21,7 +21,7 @@ public class CodeRouter {
 			.GET("/api/system/code", handler::getCodes)
 			.GET("/api/code/{id}", handler::getEnabledCodeById)
 			.GET("/api/system/code/{id}", handler::getCodeById)
-			.POST("/api/code", handler::saveCode)
+			.POST("/api/code", handler::saveCode)f
 			.PUT("/api/code/{id}", handler::updateCode)
 			.PUT("/api/code/{id}/enabled/{enabled}", handler::updateCodeEnabled)
 			.DELETE("/api/code/{id}", handler::disableCode)
